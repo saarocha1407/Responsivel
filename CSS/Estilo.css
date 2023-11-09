@@ -1,0 +1,94 @@
+body{
+    background-color: rgb (198,198,198);
+    margin: 0px;
+    padding: 0px;
+}
+.principal{
+width: 360px;
+height: 740px;
+margin: auto;
+background-color: gray;
+}
+.navegação{
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.texto001{
+width: 70%;
+height: 200px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 30px;
+font-family: 'Cutive Mono', monospace;
+}
+.area001{
+    width: 90%;
+    height: 460px;
+    background-color: rgb(22, 18, 18);
+    flex-direction: column;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.area002{
+    width: 85%;
+    height: 300px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: -70px;
+}
+.texto002{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.botão{
+color: black;
+margin-left: 30px;
+font-size: 20px;
+text-decoration: none;
+}
+.botão:hover{
+    color: sienna;
+    font-weight: bold;
+}
+/* X-Large (Aplicacao para desktops. 1200px and up)*/
+@media(min-width: 1200px){
+    .principal{
+        width: 1000px;
+        height: 700px;
+    }
+    .navegação{
+        width: 100%;
+    }
+    .texto001{
+        height: 250px;
+    }
+    .texto002{
+     width: 40%;
+     height: 260px;
+     margin-top: 90px;
+    }
+    .area001{
+        width: 900px;
+        height: 300px;
+        flex-direction: row;
+    }
+    .area002{
+        width: 40%;
+        height: 260px;
+        margin-top: 20px;
+    }
+}
